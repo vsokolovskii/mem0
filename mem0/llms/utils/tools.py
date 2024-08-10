@@ -2,7 +2,7 @@ ADD_MEMORY_TOOL = {
     "type": "function",
     "function": {
         "name": "add_memory",
-        "description": "Add a memory",
+        "description": "Use this function to add a new memory when the new information which does not already exist in the current memory list.",
         "parameters": {
             "type": "object",
             "properties": {
@@ -17,7 +17,7 @@ UPDATE_MEMORY_TOOL = {
     "type": "function",
     "function": {
         "name": "update_memory",
-        "description": "Update memory provided ID and data",
+        "description": "Use this function to update an existing memories by IDs when new memories enhance or correct the existing memories.",
         "parameters": {
             "type": "object",
             "properties": {
@@ -39,7 +39,7 @@ DELETE_MEMORY_TOOL = {
     "type": "function",
     "function": {
         "name": "delete_memory",
-        "description": "Delete memory by memory_id",
+        "description": "Use this function to delete a memories by IDs when new memories directly contradict or invalidate the existing memories.",
         "parameters": {
             "type": "object",
             "properties": {
